@@ -40,7 +40,7 @@ author_profile: true
 <div class="app-grid">
   {% for app in site.apps %}
   <div class="app-card">
-    <a href="{{ app.url }}">
+    <a href="{{ app.url | relative_url }}">
       <div class="logo-wrapper">
         <img src="{{ app.image | relative_url }}" alt="{{ app.title }} image">
       </div>
