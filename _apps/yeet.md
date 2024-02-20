@@ -7,7 +7,7 @@ app_store: "ios"
 ---
 
 <center>
-<img src="/assets/images/yeet-screenshot.png" alt="App Image" style="width: auto; height: 500px;">
+<img src="{{ "/assets/images/yeet-screenshot.png" | relative_url }}" alt="App Image" style="width: auto; height: 500px;">
 </center>
 
 Yeet is a native iOS application, with widgets, which allows you to quickly capture thoughts and yeet them away to the correct app and location.

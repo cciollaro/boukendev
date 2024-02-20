@@ -8,7 +8,7 @@ app_store_url: "/"
 ---
 
 <center>
-<img src="/assets/images/menubar-spacer-screenshot.png" alt="App Image" style="width: auto; height: 500px;">
+<img src="{{ "/assets/images/menubar-spacer-screenshot.png" | relative_url }}" alt="App Image" style="width: auto; height: 500px;">
 </center>
 
 Menubar Spacer is a native MacOS app which allows you to change the spacing between your Menubar items, and lets you preview what the change will look like.
