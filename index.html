@@ -42,7 +42,7 @@ author_profile: true
   <div class="app-card">
     <a href="{{ app.url }}">
       <div class="logo-wrapper">
-        <img src="{{ app.image }}" alt="{{ app.title }} image">
+        <img src="{{ app.image | relative_url }}" alt="{{ app.title }} image">
       </div>
 
       <h2>{{ app.title }}</h2>
@@ -55,11 +55,12 @@ author_profile: true
     <center>
       {% if app.app_store == "mac" %}
       <a href="https://apps.apple.com/us/genre/mac/id39">
-        <img src="/assets/images/mac-app-store-badge-white.svg" alt="Download on the Mac App Store">
+        <img src="{{ "/assets/images/mac-app-store-badge-white.svg" | relative_url }}"
+          alt="Download on the Mac App Store">
       </a>
       {% elsif app.app_store == "ios" %}
       <a href="https://apps.apple.com/us/genre/ios/id36">
-        <img src="/assets/images/app-store-badge-white.svg" alt="Download on the App Store">
+        <img src="{{ "/assets/images/app-store-badge-white.svg" | relative_url }" alt="Download on the App Store">
       </a>
       {% endif %}
     </center>
