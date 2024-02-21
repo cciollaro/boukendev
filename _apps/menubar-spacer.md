@@ -21,7 +21,7 @@ Menubar Spacer is a native MacOS app which allows you to change the spacing betw
 
 ### Privacy Policy
 
-Our application, Yeet, does not collect or store any personal data. We respect your privacy and are committed to protecting it. 
+Our application, Menubar Spacer, does not collect or store any personal data. We respect your privacy and are committed to protecting it. 
 
 Since we do not collect any personal information, we have no personal information to share, sell, or use in any way. 
 
